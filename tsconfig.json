@@ -7,7 +7,10 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "sourceMap": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "paths": {
+            "@ts-monorepo/core": ["packages/core"]
+        }
     },
     "exclude": ["node_modules"]
 }
